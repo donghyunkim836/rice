@@ -87,9 +87,9 @@ async function main() {
   };
 
   const urls = [
-    // "https://prod-87.southeastasia.logic.azure.com:443/workflows/0254a088b03a4a13a07a5b5e694c5459/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=bWTS38bt_TofVbNodL0dRkdVgBZsjRn_0qGAmrKIqLk",
-    // "https://prod-35.southeastasia.logic.azure.com:443/workflows/a74a954b649645daa171bc6b1466989c/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=W7YsHV-W29qgbCKalpbIMF4qm8l7Uqynk-9DkwXVdh0",
-    "https://prod-86.southeastasia.logic.azure.com:443/workflows/3822e1f5f75648369beaa4df6c34a849/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=vjYxhyufbxZd1mtCGDWDMjEUu-_omaL4wM8xDBhy0B4",
+    "https://prod-87.southeastasia.logic.azure.com:443/workflows/0254a088b03a4a13a07a5b5e694c5459/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=bWTS38bt_TofVbNodL0dRkdVgBZsjRn_0qGAmrKIqLk",
+    "https://prod-35.southeastasia.logic.azure.com:443/workflows/a74a954b649645daa171bc6b1466989c/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=W7YsHV-W29qgbCKalpbIMF4qm8l7Uqynk-9DkwXVdh0",
+    "https://prod-94.southeastasia.logic.azure.com:443/workflows/5bca991645b74e3799130b7d2ec62930/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=PH1WxIe8LNDRVhXyA4ybcHophF13zkSRvx_AxQDnrpQ",
   ];
 
   for (const url of urls) {
@@ -112,7 +112,7 @@ async function main() {
 }
 
 console.log(
-  `[${new Date().toLocaleString()}] 📡 메뉴봇 시작: 매일 11시에 실행됩니다.`
+  `[${new Date().toLocaleString()}] 📡 메뉴봇 시작: 매일 10시 30분에 실행됩니다.`
 );
 
 main();
